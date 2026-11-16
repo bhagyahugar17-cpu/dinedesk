@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ DineDesk – Restaurant Management System
 
-## Getting Started
+DineDesk is a modern restaurant management and food ordering web application. It allows customers to explore food items, add products to their cart, place orders, and manage their profiles. It also provides admin and kitchen dashboards for managing orders.
 
-First, run the development server:
+## 🚀 Features
+
+### Customer Features
+- Browse food items and categories.
+- Search and filter food items.
+- View individual food details.
+- Add food items to the cart.
+- Update quantities and remove items.
+- Place orders using Cash on Delivery or demo UPI.
+- View order history and order status.
+- Register and log in.
+- Manage customer profile.
+- Book table reservations.
+- Add food reviews.
+
+### Admin Features
+- Admin login.
+- View customer orders.
+- View order statistics.
+- Update order statuses.
+- View table reservations.
+- Manage reservation statuses.
+
+### Kitchen Features
+- View active orders.
+- View completed orders.
+- Update food preparation and delivery statuses.
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+- JavaScript
+- Browser Local Storage
+
+## 📂 Project Structure
+
+```text
+dine-desk/
+├── app/
+│   ├── admin/
+│   ├── admin-login/
+│   ├── cart/
+│   ├── checkout/
+│   ├── components/
+│   ├── food/
+│   ├── kitchen/
+│   ├── login/
+│   ├── menu/
+│   ├── orders/
+│   ├── profile/
+│   ├── register/
+│   ├── reservation/
+│   └── page.tsx
+├── public/
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/bhagyahugar17-cpu/dinedesk.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd dinedesk
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 🔐 Demo Admin Login
 
-To learn more about Next.js, take a look at the following resources:
+- Username: `admin`
+- Password: `admin123`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+These are demo credentials for the frontend project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💾 Data Storage
 
-## Deploy on Vercel
+This project currently uses browser Local Storage to store cart items, customer details, orders, reviews, and reservations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Note:** This is a frontend demonstration project. It does not currently use a production backend or database. Authentication and payment features are for demonstration purposes only.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👩‍💻 Developer
+
+**Bhagyashree Hugar**
+
+GitHub: https://github.com/bhagyahugar17-cpu
+
+---
+
+⭐ Thank you for visiting DineDesk!
